@@ -1,0 +1,29 @@
+@media (max-width: 770px){
+	 /*.navigation{
+	 	display: none;*/
+	 	.nav-li:not(.active){
+	 		display: none;
+	 	}
+	 }
+	 .burger_icon{
+	 	display: block;
+	 }
+}
+@media(max-width: 1105px){
+	.block1,
+	.blcok2 {
+		max-width: 536px;
+		width: 100%;
+		height: 461px;
+		
+
+
+	}
+}
+@media(max-width: 1120px){
+	.footer_flex,
+	.footer{
+		flex-wrap: wrap;
+		height: auto;
+	}
+}
